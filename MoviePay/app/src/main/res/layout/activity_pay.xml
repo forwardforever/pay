@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bw.movie.activity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="支付方式"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/bt_wxpay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微信支付"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bt_alipay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="支付宝支付"/>
+
+</LinearLayout>
